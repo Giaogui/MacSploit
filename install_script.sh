@@ -1,10 +1,7 @@
 #!/bin/bash
 
 echo -e "Downloading MacSploit"
-curl -O "https://raw.githubusercontent.com/Nexus42Dev/MacSploit/main/MacSploit.zip"
-
-echo -e "Installing MacSploit"
-unzip -o -q "./MacSploit.zip"
+curl -O "https://raw.githubusercontent.com/Giaogui/MacSploit/main/Client/new-exploit.h"
 
 echo -e "Patching Roblox"
 mv ./macsploit.dylib "/Applications/Roblox.app/Contents/MacOS/macsploit.dylib"
