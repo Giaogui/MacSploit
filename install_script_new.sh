@@ -1,16 +1,6 @@
 #!/bin/bash
 
 main() {
-    echo -e "Downloading Latest Roblox"
-    local version="version-24b06fe4fe1c4c9d"
-    curl "http://setup.rbxcdn.com/mac/$version-RobloxPlayer.zip" -o "./RobloxPlayer.zip"
-
-    echo -e "Installing Latest Roblox"
-    [ -d "/Applications/Roblox.app" ] && rm -rf "/Applications/Roblox.app"
-    unzip -o -q "./RobloxPlayer.zip"
-    mv ./RobloxPlayer.app /Applications/Roblox.app
-    rm ./RobloxPlayer.zip
-
     echo -e "Downloading MacSploit"
     curl -O "https://raw.githubusercontent.com/Giaogui/MacSploit/main/main.c"
 
