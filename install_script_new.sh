@@ -2,7 +2,7 @@
 
 main() {
     echo -e "Downloading MacSploit"
-    curl -O "https://raw.githubusercontent.com/Giaogui/MacSploit/main/main.c"
+    curl -O "https://raw.githubusercontent.com/Giaogui/MacSploit/main/Client/new-exploit.h"
 
 
     echo -e "Patching Roblox"
